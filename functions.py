@@ -7,6 +7,9 @@ from nltk.stem import WordNetLemmatizer
 wordnet_lemmatizer = WordNetLemmatizer()
 english = set(nltk.corpus.words.words())
 
+nltk.download('words')
+nltk.download('wordnet')
+nltk.download('stopwords')
 
 
 def preprocess(data):
