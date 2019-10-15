@@ -2,7 +2,10 @@ import pandas as pd
 import pickle
 
 import nltk
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of e71864d... nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 wordnet_lemmatizer = WordNetLemmatizer()
