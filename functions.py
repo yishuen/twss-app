@@ -3,6 +3,8 @@ import pickle
 
 import nltk
 
+nltk.data.path.append('/nltk_data')
+
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 wordnet_lemmatizer = WordNetLemmatizer()
